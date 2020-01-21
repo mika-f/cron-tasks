@@ -2,7 +2,7 @@ name: Update gist with WakaTime stats
 
 on:
   schedule:
-    - cron: "0/10 * * * *"
+    - cron: "0 15 * * *"
 
 jobs:
   build:
